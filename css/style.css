@@ -1,0 +1,110 @@
+body {
+    background-color: hsl(0, 0%, 98%);
+}
+
+.top-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    font-size: 30px;
+}
+
+.bottom-heading {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.container-fluid p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.container-fluid {
+    padding: 2% 32% 2% 32%;
+}
+
+.center-feature {
+    margin-top: 8rem;
+}
+
+.features-container {
+    margin:10px 10%;
+}
+
+.feature {
+    background-color: white ;
+    font-family: 'Poppins', sans-serif;
+    padding: 8rem;
+    margin-bottom: 2rem;
+}
+
+.border-color-3 {
+    border-top: 5px solid;
+    border-color:hsl(212, 86%, 64%);
+}
+
+.border-color-2-1 {
+    border-top: 5px solid;
+    border-color:hsl(0, 78%, 62%);
+}
+
+.border-color-2-2 {
+    border-top: 5px solid;
+    border-color:hsl(34, 97%, 64%);
+}
+
+.border-color-1 {
+    border-top: 5px solid;
+    border-color:hsl(180, 62%, 55%)
+}
+
+
+.feature h3 {
+    font-size: 20px;
+    font-weight: 600; 
+}
+
+.feature p{
+    font-size: 15px;
+    font-weight: 300;
+    padding-right: 2rem;
+}
+
+.img-align {
+    width: 15%;
+    margin-left: 18rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .top-heading{
+        font-size: 22px;
+    }
+
+    .bottom-heading {
+        font-size: 22px;
+    }
+
+    .container-fluid {
+        padding: 10% 10% 1% 10%;
+    }
+
+    .center-feature {
+        margin-top: 0;
+    }
+
+    .container-fluid p {
+        padding: 0rem 1.2rem;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .img-align {
+        width: 15%;
+        margin-left: 15rem;
+    }
+  }
